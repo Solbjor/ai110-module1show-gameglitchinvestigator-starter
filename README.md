@@ -48,3 +48,4 @@ Third bug is the difficulty setting is set to a different range via hardcode. Ha
 
 Phase 2
 
+For phase 2 I chose to fix the error with New Game not actually starting a new game. What I decided to do to tackle the issue was to explicitly reset the game's status to "playing" at the end of every match so when the page reloads at the the click of new game, the status checker detects that the sessions status = "playing", allowing the game to proceed. 

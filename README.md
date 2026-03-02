@@ -36,3 +36,15 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 🚀 Stretch Features
 
 - [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+
+
+Phase 1:
+
+The first bug I encountered was in the New Game button/state, as everytime a new game is initiated the satte is set to "game over" as if the game had already been played. It is also hardcoding the actual difficulty value and not reset any variables properly, meaning the game's prior history is carried over thus leading to a "game over" as all guesses have been tried already. 
+
+Second bug is related to the backwards feedback messages. As in, the hints are being displayed opposite to what they actually should be. For example, the hint text tells the user to guess higher when in reality the number is lower than what they guessed, and viceversa. 
+
+Third bug is the difficulty setting is set to a different range via hardcode. Hard should return a range of at least 1 - 100, which has more variety, when in reality it is returning 1 - 50, which is the range for Normal. 
+
+Phase 2
+

@@ -51,13 +51,12 @@ Phase 2
 
 For phase 2 I chose to fix the error with New Game not actually starting a new game. What I decided to do to tackle the issue was to explicitly reset the game's status to "playing" at the end of every match so when the page reloads at the the click of new game, the status checker detects that the sessions status = "playing", allowing the game to proceed. 
 
+Fix Implemented for New Game button
 
-Before:
-
+Game Over
 <img width="1607" height="821" alt="before" src="https://github.com/user-attachments/assets/8a2f7431-1aa9-4221-95cf-d7ce64667d9a" />
 
-After:
-
+After clicking New Game:
 <img width="1449" height="1034" alt="after" src="https://github.com/user-attachments/assets/a9d82af2-1923-40d6-86bf-0f186136af44" />
 
 

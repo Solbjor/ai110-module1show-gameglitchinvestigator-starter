@@ -25,9 +25,9 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [x] Describe the game's purpose.
+- [x] Detail which bugs you found.
+- [x] Explain what fixes you applied.
 
 ## 📸 Demo
 
@@ -37,6 +37,7 @@ It wrote the code, ran away, and now the game is unplayable.
 
 - [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
 
+The game's purpose is a basic higher or lower guessing game, where the game selects a number within a certain range and we have to guess which one it is. We are given multiple attempts and if the number we guess is higher than the target, then the system gives us a hint to pick a lower number, and viceversa. This happens until the number is guessed, or we run out of tries. 
 
 Phase 1:
 
